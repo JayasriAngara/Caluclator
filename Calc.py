@@ -20,6 +20,10 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+# This function gives remainder of two numbers
+def mod(x, y):
+    return x % y
+
 # Program make a simple calculator Print Statements
 
 print("Select operation.")
@@ -27,3 +31,4 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+print("5.Mod")
